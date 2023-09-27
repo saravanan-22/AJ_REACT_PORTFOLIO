@@ -1,0 +1,159 @@
+.background {
+  background: black;
+  height: 100vh;
+}
+
+.hexagon {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-left: 60px;
+  animation: zoomOut 3s linear forwards 1 4s;
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(0) rotateX(360deg);
+  }
+}
+
+
+.hexagonLine-1 {
+  border-radius: 5px;
+  width: 10px;
+  height: 30px;
+  transform: skewX(-60deg);
+  background-color:rgb(100, 255, 218);
+  animation: drawLine 0.5s linear;
+  transform-origin: top;
+}
+
+@keyframes drawLine {
+  0% {
+    height: 0;
+    transform: skewX(0deg);
+  }
+  100% {
+    height: 30px;
+    transform: skewX(-60deg);
+  }
+}
+
+.hexagonLine-2 {
+  border-radius: 5px;
+  width: 5px;
+  height: 60px;
+  background-color:rgb(100, 255, 218);
+  animation: drawLine2 0.2s linear;
+  transform-origin: top;
+  transform: translate(-60px, 46px);
+}
+
+@keyframes drawLine2 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 60px;
+  }
+}
+
+.hexagonLine-3 {
+  border-radius: 5px;
+  width: 10px;
+  height: 30px;
+  transform: skewX(60deg) translate(-225px, 92px);
+  background-color: rgb(100, 255, 218);
+  animation: drawLine3 0.2s linear;
+  transform-origin: top;
+}
+
+@keyframes drawLine3 {
+  0% {
+    height: 0;
+    transform: skewX(0deg) translate(-225px, 92px);
+  }
+  100% {
+    height: 30px;
+    transform: skewX(60deg) translate(-225px, 92px);
+  }
+}
+
+.hexagonLine-4 {
+  border-radius: 5px;
+  width: 10px;
+  height: 30px;
+  transform: skewX(-60deg) translate(192px, 93px);
+  background-color: rgb(100, 255, 218);
+  animation: drawLine4 0.2s linear;
+  transform-origin: top;
+}
+
+@keyframes drawLine4 {
+  0% {
+    height: 0;
+    transform: skewX(0deg) translate(192px, 93px);
+  }
+  100% {
+    height: 30px;
+    transform: skewX(-60deg) translate(192px, 93px);
+  }
+}
+
+
+.hexagonLine-5 {
+  border-radius: 5px;
+  width: 5px;
+  height: 60px;
+  background-color: rgb(100, 255, 218);
+  animation: drawLine5 0.2s linear;
+  transform-origin: top;
+  transform: translate(23px, 47px);
+}
+
+@keyframes drawLine5 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 60px;
+  }
+}
+
+
+.hexagonLine-6 {
+  border-radius: 5px;
+  width: 10px;
+  height: 30px;
+  transform: skewX(60deg) translate(-36px, 0px);
+  background-color:rgb(100, 255, 218);
+  animation: drawLine6 0.2s linear;
+  transform-origin: top;
+  
+}
+
+@keyframes drawLine6 {
+  0% {
+    height: 0;
+    transform: skewX(0deg);
+  }
+  100% {
+    height: 30px;
+    transform: skewX(-60deg);
+  }
+}
+
+.letter{
+  transform: translate(-65px, 45px);
+  font-size: 80px;
+  color:rgb(100, 255, 218);
+  
+}
+
