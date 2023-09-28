@@ -1,0 +1,71 @@
+.aboutMe-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.text > h3 {
+  color: rgb(203, 213, 245);
+}
+
+.text > p {
+  text-align: justify;
+  font-size: 1.2em;
+  color: rgb(136, 146, 176);
+  margin-top: 1em;
+}
+
+.text > Button {
+  color: rgb(0, 0, 0);
+  animation: multiColor 5s linear forwards infinite 0s;
+}
+
+@keyframes multiColor {
+  0% {
+    background: orange;
+  }
+
+  25% {
+    background-color: rgb(25, 0, 255);
+  }
+  50% {
+    background: rgb(255, 255, 255);
+  }
+
+  75% {
+    background: rgb(72, 255, 0);
+  }
+  100% {
+    background: gold;
+  }
+}
+
+.text > Button:hover {
+  animation-play-state: paused;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+}
+
+.image > img {
+  width: 50%;
+  margin-left: 6em;
+  border: 2px solid rgb(203, 213, 245);
+  padding: 10px;
+  margin-top: 85px;
+ 
+}
+
+.image > img:hover {
+  transform: rotateX(90deg);
+}

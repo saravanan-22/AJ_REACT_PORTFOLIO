@@ -1,7 +1,14 @@
+
+
 .home {
   color: black;
   position: relative;
+  padding-bottom: 5px;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+
 
 .home::before {
   content: "";
@@ -20,6 +27,8 @@
   transform: scaleX(1);
 } 
 
+
+
 .pb-1 {
   font-size: 20px;
 }
@@ -29,6 +38,7 @@
   padding-right: 5px;
   color:rgb(100, 255, 218);
 }
+
 
 .logo {
   font-size: 40px;
@@ -54,5 +64,7 @@ h6 {
   position: absolute;
   left: 0;
   top: 0;
-  transform: translate(316%, 92%);
+  transform: translate(316%, 115%);
 }
+
+
