@@ -23,7 +23,7 @@
   margin-top: 1em;
 }
 
-.text > Button {
+/* .text > Button {
   color: rgb(0, 0, 0);
   animation: multiColor 5s linear forwards infinite 0s;
 }
@@ -46,7 +46,7 @@
   100% {
     background: gold;
   }
-}
+} */
 
 .text > Button:hover {
   animation-play-state: paused;
@@ -58,14 +58,53 @@
 }
 
 .image > img {
-  width: 50%;
+  width: 55%;
   margin-left: 6em;
   border: 2px solid rgb(203, 213, 245);
-  padding: 10px;
   margin-top: 85px;
- 
+  animation: colorChanger 8s linear forwards infinite 0s;
 }
 
-.image > img:hover {
-  transform: rotateX(90deg);
+.photo:hover {
+  animation-play-state: paused;
+  transform: scale(1.5) rotate(25deg);
+  border: 5px solid rgb(203, 213, 245);
+  border-radius: 5px;
+}
+
+@keyframes colorChanger {
+  0% {
+    background-color: rgba(173, 216, 230, 0.5);
+  }
+
+  10% {
+    background-color: rgba(255, 192, 203, 0.5);
+  }
+  20% {
+    background-color: rgba(152, 251, 152, 0.5);
+  }
+  30% {
+    background-color: rgba(230, 230, 250, 0.5);
+  }
+  40% {
+    background-color: rgba(218, 165, 32, 0.5);
+  }
+  50% {
+    background-color: rgba(0, 128, 128, 0.7);
+  }
+  60% {
+    background-color: rgba(255, 127, 80, 0.6);
+  }
+  70% {
+    background-color: rgba(218, 112, 214, 0.4);
+  }
+  80% {
+    background-color: rgba(218, 112, 214, 0.4);
+  }
+  90% {
+    background-color: rgba(0, 191, 255, 0.8);
+  }
+  100% {
+    background-color: rgba(107, 142, 35, 0.7);
+  }
 }

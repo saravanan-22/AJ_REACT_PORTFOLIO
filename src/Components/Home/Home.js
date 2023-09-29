@@ -6,6 +6,9 @@ import { FaCircleArrowDown } from "react-icons/fa6";
 import { GiCycle } from "react-icons/gi";
 import AboutMe from "../AboutMe/AboutMe";
 import Container from "react-bootstrap/esm/Container";
+import Qualifications from "../Qualificaions/Qualifications";
+import Abilities from "../Abillities/Abilities";
+import Projects from "../Projects/Projects";
 
 function Home() {
   return (
@@ -34,9 +37,15 @@ function Home() {
           <section className="vh-100" id="about">
             <AboutMe />
           </section>
-          <section className="vh-100" id="qualifications"></section>
-          <section className="vh-100" id="Abilities"></section>
-          <section className="vh-100" id="projects"></section>
+          <section className="vh-200" id="qualifications">
+            <Qualifications/>
+          </section>
+          <section className="vh-100" id="Abilities">
+            <Abilities/>
+          </section>
+          <section className="vh-300" id="projects">
+            <Projects/>
+          </section>
           <section className="vh-100" id="contact"></section>
         </div>
       </Container>

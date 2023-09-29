@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutMe.css";
 import Button from "react-bootstrap/esm/Button";
 import { FaFileArrowDown } from "react-icons/fa6";
-import image from "../../images/photo.jpeg"
+import image from "../../images/photo.png"
 
 function AboutMe() {
   return (
@@ -24,10 +24,11 @@ function AboutMe() {
             to further my career growth and expand my expertise in the field of
             web development.
           </p>
-          <Button variant="outline-dark"><FaFileArrowDown/> Resume</Button>
+          <Button variant="warning"><FaFileArrowDown/> Resume</Button>
         </div>
         <div className="image">
-          <img src={image} alt="profilePhoto"/>
+          <div></div>
+          <img src={image} alt="profilePhoto" className="photo"/>
         </div>
       </section>
     </div>

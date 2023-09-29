@@ -62,7 +62,7 @@ function Header() {
                   {" "}
                   <FaBookOpenReader className="pb-1" /> WHO I AM?
                 </Link>
-                <Link
+                {/* <Link
                   activeClass="active"
                   to="qualifications"
                   className="home me-4 mt-1"
@@ -89,7 +89,7 @@ function Header() {
                   {" "}
                   <FaBookOpenReader className="pb-1" />
                   ABILITIES
-                </Link>
+                </Link> */}
                 <Link
                   activeClass="active"
                   to="projects"

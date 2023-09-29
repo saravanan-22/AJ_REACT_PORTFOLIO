@@ -1,0 +1,62 @@
+.mt {
+  width: 100%;
+  height: 83%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skillsImages {
+  width: 60%;
+}
+
+.skillsImages img {
+    width: 10%;
+}
+
+.gif {
+  width: 40%;
+  /* background-color: aqua; */
+}
+
+.gif > img {
+  margin-top: 10em;
+  width: 100%;
+}
+
+.skillsImages > img {
+  width: 22%;
+  --color: rgb(100, 255, 218);
+  --border: 10px;
+  --offset: 10px;
+  --gap: 5px;
+
+
+  cursor: pointer;
+  padding: calc(var(--border) + var(--gap));
+  border: var(--offset) solid #0000;
+  --_m: radial-gradient(
+    50% 50%,
+    #000 calc(100% - var(--offset)),
+    #0000 calc(100% - var(--border))
+  );
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  --_g: #0000 calc(99% - var(--border)),
+    var(--color) calc(100% - var(--border)) 99%, #0000;
+  --_s: var(--offset);
+  --_r: 100% 100% at;
+  background: radial-gradient(var(--_r) 0 0, var(--_g)) calc(100% + var(--_s))
+      calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 100% 0, var(--_g)) calc(0% - var(--_s))
+      calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 0 100%, var(--_g)) calc(100% + var(--_s))
+      calc(0% - var(--_s)),
+    radial-gradient(var(--_r) 100% 100%, var(--_g)) calc(0% - var(--_s))
+      calc(0% - var(--_s));
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+img:hover {
+  --_s: 0px;
+}
