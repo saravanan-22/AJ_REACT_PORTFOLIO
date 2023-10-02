@@ -1,3 +1,4 @@
+
 .content-container {
   position: relative;
   z-index: 1;
@@ -47,14 +48,14 @@
 
 .background-icon {
   position: absolute;
- transform: translateX(10em) translateY(-10em);
+ transform: translateX(28em) translateY(-2.5em);
   z-index: 0; 
   width: auto;
 }
 
 
 .icon-animation {
-  font-size: 50em;
+  font-size: 40em;
   z-index: -1; 
   color: rgb(82, 82, 82);
   perspective: 1000px;

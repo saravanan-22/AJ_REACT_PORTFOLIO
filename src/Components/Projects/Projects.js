@@ -32,6 +32,14 @@ import project3Image7 from "../../images/movie_app_image7.jpg";
 import rwi1 from "../../images/rwi1.jpg";
 import rwi2 from "../../images/rwi2.jpg";
 import rwi3 from "../../images/rwi3.jpg";
+import noteapp from "../../images/note_app.jpg";
+import numberGame from "../../images/numberGame.jpg";
+import colorFlipper from "../../images/colorFlipper.jpg";
+import counter from "../../images/counter.jpg";
+import calculator from "../../images/calculator.jpg";
+import todo from "../../images/todolist.jpg";
+import letterChecker from "../../images/letterChecker.jpg";
+import clock from "../../images/clock.jpg";
 import html from "../../images/htmlLogo.png";
 import css from "../../images/cssLogo.png";
 import bootstrap from "../../images/bootstrapLogo.png";
@@ -515,7 +523,7 @@ const Projects = () => {
         </div>
       </section>
       <hr className="animated-hr" />
-      <section>
+      <section className="javaScriptProject">
         <div>
           <h5
             style={{
@@ -531,12 +539,415 @@ const Projects = () => {
             <div className="grid-one">
               <div>
                 <Container>
-                  <h5>| REPEAT WORD IDENTIFIER |</h5>
-                  <p style={{ textAlign: "justify", padding: "5px" }}>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>
+                    | REPEATED WORDS IDENTIFIER |
+                  </h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                    }}
+                  >
                     👋 Here, I have attached my Repeated Words Identifier
                     project. 🚀 This project was created using HTML, CSS,
                     Bootstrap, and JavaScript. 📋 You can paste any paragraph
                     into our website to find repeated words. 🔍
+                  </p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-evenly" }}
+                  >
+                    <Link
+                      to={"https://dreamy-malabi-322f29.netlify.app/"}
+                      target="blank"
+                    >
+                      <Button variant="outline-dark">DEMO</Button>
+                    </Link>
+
+                    <Link
+                      to={
+                        "https://github.com/saravanan-22/AJ_JS_FCCP-15_12_RWI"
+                      }
+                      target="blank"
+                    >
+                      {" "}
+                      <Button variant="outline-dark">CODE</Button>
+                    </Link>
+                  </div>
+                </Container>
+              </div>
+            </div>
+            <img src={rwi3} />{" "}
+          </div>
+          <div className="grid-image">
+            <div className="grid-one">
+              <div>
+                <Container>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>| NOTE APP |</h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                       fontSize: "0.8em",
+                    }}
+                  >
+                    This note app allows users to quickly add and manage notes
+                    📝. To create a new note, simply enter a title and content,
+                    then click 'Add Note.' Notes are displayed below the input
+                    fields, and you can delete them individually 🗑️. The app
+                    also clears input fields after adding a note, streamlining
+                    the note-taking process ✨.
+                  </p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-evenly" }}
+                  >
+                    <Link
+                      to={"https://github.com/saravanan-22/AJ_JS_FCCP-15_14_NA"}
+                      target="blank"
+                    >
+                      <Button variant="outline-dark">DEMO</Button>
+                    </Link>
+
+                    <Link
+                      to={
+                        "https://github.com/saravanan-22/AJ_JS_FCCP-15_12_RWI"
+                      }
+                      target="blank"
+                    >
+                      {" "}
+                      <Button variant="outline-dark">CODE</Button>
+                    </Link>
+                  </div>
+                </Container>
+              </div>
+            </div>{" "}
+            <img src={noteapp} />
+          </div>
+          <div className="grid-image">
+            <div className="grid-one">
+              <div>
+                <Container>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>
+                    |GUESS THE NUMBER GAME|
+                  </h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                      fontSize: "0.7em",
+                    }}
+                  >
+                    This JavaScript code sets up a simple number guessing game.
+                    Players can enter their guesses into an input field and
+                    click the 'Check' button. The code generates a random number
+                    between 1 and 100, and players are given feedback on whether
+                    their guess is too high or too low. When the correct number
+                    is guessed, a congratulations message is displayed along
+                    with the number of attempts. The input field and 'Check'
+                    button are disabled after a correct guess to indicate the
+                    end of the game." 🎮
+                  </p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-evenly" }}
+                  >
+                    <Link
+                      to={"https://roaring-bunny-03ed2a.netlify.app/"}
+                      target="blank"
+                    >
+                      <Button variant="outline-dark">DEMO</Button>
+                    </Link>
+
+                    <Link
+                      to={
+                        "https://github.com/saravanan-22/AJ_JS_FCCP-15_9_GTNG"
+                      }
+                      target="blank"
+                    >
+                      {" "}
+                      <Button variant="outline-dark">CODE</Button>
+                    </Link>
+                  </div>
+                </Container>
+              </div>
+            </div>{" "}
+            <img src={numberGame} />
+          </div>
+          <div className="grid-image">
+            <div className="grid-one">
+              <div>
+                <Container>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>
+                    | COLOR FLIPPER |
+                  </h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                      fontSize: "0.7em",
+                    }}
+                  >
+                    This JavaScript code offers two options for generating
+                    random colors. The 'Simple' button selects a color name from
+                    a predefined list and changes the background color of the
+                    body to that color. The color name is displayed alongside
+                    its hexadecimal value. On the other hand, the 'Hex' button
+                    generates a random hexadecimal color code and applies it as
+                    the background color. The generated hex code is displayed
+                    for reference. Both options provide a fun way to explore
+                    different colors with a single click." 🌈
+                  </p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-evenly" }}
+                  >
+                    <Link
+                      to={"https://cheery-pony-0e764a.netlify.app/"}
+                      target="blank"
+                    >
+                      <Button variant="outline-dark">DEMO</Button>
+                    </Link>
+
+                    <Link
+                      to={"https://github.com/saravanan-22/AJ_JS_FCCP-15_1_CF"}
+                      target="blank"
+                    >
+                      {" "}
+                      <Button variant="outline-dark">CODE</Button>
+                    </Link>
+                  </div>
+                </Container>
+              </div>
+            </div>{" "}
+            <img src={colorFlipper} />
+          </div>
+          <div className="grid-image">
+            <div className="grid-one">
+              <div>
+                <Container>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>| COUNTER |</h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                      fontSize: "0.6em",
+                    }}
+                  >
+                    This JavaScript code creates a simple counter that can be
+                    incremented, decremented, or reset to zero using three
+                    buttons labeled 'D' (for decrement), 'R' (for reset), and
+                    'I' (for increment). The current value is displayed on the
+                    webpage, and its color changes dynamically based on whether
+                    it's negative, zero, or positive. When decremented, the
+                    value turns red if it goes below zero, and when incremented,
+                    it turns green if it becomes positive. Resetting the value
+                    turns it black. This code provides a basic interactive way
+                    to track and visualize changes to a numeric value." 📈📉
+                  </p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-evenly" }}
+                  >
+                    <Link
+                      to={"https://steady-torrone-8ebd92.netlify.app/"}
+                      target="blank"
+                    >
+                      <Button variant="outline-dark">DEMO</Button>
+                    </Link>
+
+                    <Link
+                      to={
+                        "https://github.com/saravanan-22/AJ_JS_FCCP-15_2_COUNTER"
+                      }
+                      target="blank"
+                    >
+                      {" "}
+                      <Button variant="outline-dark">CODE</Button>
+                    </Link>
+                  </div>
+                </Container>
+              </div>
+            </div>{" "}
+            <img src={counter} />
+          </div>
+          <div className="grid-image">
+            <div className="grid-one">
+              <div>
+                <Container>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>
+                    | CALCULATOR |
+                  </h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                      fontSize: "0.6em",
+                    }}
+                  >
+                    This JavaScript code creates a simple calculator interface.
+                    Users can input mathematical expressions by clicking on
+                    buttons with numbers, operators, and special functions like
+                    'C' for clearing, '⌫' for deleting the last character, and
+                    '=' for calculating the result. The input expression is
+                    displayed in a result element, and when the user clicks '=',
+                    the code evaluates the expression and displays the result.
+                    If an error occurs during evaluation, it displays 'Error.'
+                    The code also allows users to build and edit the expression
+                    character by character, providing basic calculator
+                    functionality." 🧮
+                  </p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-evenly" }}
+                  >
+                    <Link
+                      to={"https://stirring-frangipane-2ef330.netlify.app/"}
+                      target="blank"
+                    >
+                      <Button variant="outline-dark">DEMO</Button>
+                    </Link>
+
+                    <Link
+                      to={
+                        "https://github.com/saravanan-22/AJ_JS_FCCP-15_6_CALCULATOR"
+                      }
+                      target="blank"
+                    >
+                      {" "}
+                      <Button variant="outline-dark">CODE</Button>
+                    </Link>
+                  </div>
+                </Container>
+              </div>
+            </div>{" "}
+            <img src={calculator} />
+          </div>
+          <div className="grid-image">
+            <div className="grid-one">
+              <div>
+                <Container>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>
+                    | TO-DO-LIST |
+                  </h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                      fontSize: "0.6em",
+                    }}
+                  >
+                    This JavaScript code creates a to-do list application with
+                    features for adding, editing, and managing tasks. Users can
+                    enter a task in the input field and click the 'Add' button
+                    to add it to the to-do list. Each task appears as an item
+                    with a checkbox for marking completion, an 'Edit' button for
+                    modifying the task name, and a 'Delete' button for removing
+                    the task. Completed tasks are moved to a 'Completed' list
+                    with a line-through style, and they can be moved back to the
+                    to-do list by unchecking the checkbox. The code provides a
+                    dynamic and interactive way to manage tasks." 📋✅🗑️
+                  </p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-evenly" }}
+                  >
+                    <Link
+                      to={"https://vermillion-bubblegum-98b110.netlify.app/"}
+                      target="blank"
+                    >
+                      <Button variant="outline-dark">DEMO</Button>
+                    </Link>
+
+                    <Link
+                      to={
+                        "https://github.com/saravanan-22/AJ_JS_FCCP-15_4_TO-DO-LIST"
+                      }
+                      target="blank"
+                    >
+                      {" "}
+                      <Button variant="outline-dark">CODE</Button>
+                    </Link>
+                  </div>
+                </Container>
+              </div>
+            </div>{" "}
+            <img src={todo} />
+          </div>
+          <div className="grid-image">
+            <div className="grid-one">
+              <div>
+                <Container>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>
+                    | REPEATED LETTERS CHECKER |
+                  </h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                      fontSize: "0.6em",
+                    }}
+                  >
+                    This JavaScript code takes a user-provided name or word and
+                    counts the repeated letters within it, ignoring case. It
+                    utilizes an object to keep track of the letter frequencies,
+                    and if a letter is repeated and not already included in the
+                    list of repeated letters, it is added. The code then
+                    generates a result string displaying each repeated letter
+                    along with the number of times it occurs. It provides a
+                    clear and concise way to identify and display the repeated
+                    letters within a given name or word." 📊🔤
+                  </p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-evenly" }}
+                  >
+                    <Link
+                      to={"https://calm-otter-b2a28e.netlify.app/"}
+                      target="blank"
+                    >
+                      <Button variant="outline-dark">DEMO</Button>
+                    </Link>
+
+                    <Link
+                      to={
+                        "https://github.com/saravanan-22/AJ_JS_FCCP-15_11_RLC"
+                      }
+                      target="blank"
+                    >
+                      {" "}
+                      <Button variant="outline-dark">CODE</Button>
+                    </Link>
+                  </div>
+                </Container>
+              </div>
+            </div>{" "}
+            <img src={letterChecker} />
+          </div>
+          {/* <div className="grid-image">
+            <div className="grid-one">
+              <div>
+                <Container>
+                  <h5 style={{ color: "rgb(136, 146, 176)" }}>
+                    | ANALOG CLOCK |
+                  </h5>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      padding: "5px",
+                      color: "rgb(136, 146, 176)",
+                      fontSize: "0.8em",
+                    }}
+                  >
+                    This JavaScript code creates an analog clock by rotating
+                    clock hands (hour, minute, and second hands) to reflect the
+                    current time. It uses the setInterval function to update the
+                    clock hands every second. The current time is obtained using
+                    the Date object, and the degree of rotation for each hand is
+                    calculated based on the current hours, minutes, and seconds.
+                    The transform CSS property is then used to rotate each clock
+                    hand accordingly, creating a real-time analog clock
+                    display." 🕰️⏰
                   </p>
                   <div
                     style={{ display: "flex", justifyContent: "space-evenly" }}
@@ -546,41 +957,9 @@ const Projects = () => {
                   </div>
                 </Container>
               </div>
-            </div>
-            <img src={rwi3} />{" "}
-          </div>
-          <div className="grid-image">
-            {" "}
-            <img src={rwi1} />
-          </div>
-          <div className="grid-image">
-            {" "}
-            <img src={rwi1} />
-          </div>
-          <div className="grid-image">
-            {" "}
-            <img src={rwi1} />
-          </div>
-          <div className="grid-image">
-            {" "}
-            <img src={rwi1} />
-          </div>
-          <div className="grid-image">
-            {" "}
-            <img src={rwi1} />
-          </div>
-          <div className="grid-image">
-            {" "}
-            <img src={rwi1} />
-          </div>
-          <div className="grid-image">
-            {" "}
-            <img src={rwi1} />
-          </div>
-          <div className="grid-image">
-            {" "}
-            <img src={rwi1} />
-          </div>
+            </div>{" "}
+            <img src={clock} />
+          </div> */}
         </div>
       </section>
     </div>

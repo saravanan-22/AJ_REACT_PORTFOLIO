@@ -9,6 +9,7 @@ import Container from "react-bootstrap/esm/Container";
 import Qualifications from "../Qualificaions/Qualifications";
 import Abilities from "../Abillities/Abilities";
 import Projects from "../Projects/Projects";
+import GetInTouch from "../GetInTouch/GetInTouch";
 
 function Home() {
   return (
@@ -38,17 +39,20 @@ function Home() {
             <AboutMe />
           </section>
           <section className="vh-200" id="qualifications">
-            <Qualifications/>
+            <Qualifications />
           </section>
-          <section className="vh-100" id="Abilities">
-            <Abilities/>
+          <section className="vh-300" id="Abilities">
+            <Abilities />
           </section>
           <section className="vh-300" id="projects">
-            <Projects/>
+            <Projects />
           </section>
-          <section className="vh-100" id="contact"></section>
+          
         </div>
       </Container>
+      <section className="vh-100" id="contact">
+            <GetInTouch />
+          </section>
     </div>
   );
 }

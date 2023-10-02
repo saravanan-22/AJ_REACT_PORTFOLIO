@@ -10,7 +10,7 @@
 }
 
 .skillsImages img {
-    width: 10%;
+  width: 10%;
 }
 
 .gif {
@@ -29,7 +29,6 @@
   --border: 10px;
   --offset: 10px;
   --gap: 5px;
-
 
   cursor: pointer;
   padding: calc(var(--border) + var(--gap));
@@ -59,4 +58,72 @@
 }
 img:hover {
   --_s: 0px;
+}
+
+.certificationDiv {
+  position: relative;
+  height: 80vh;
+}
+
+.certificationImgSec > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.certificationImgSec > .certification1 {
+  transform: translateX(100%) translateY(20%);
+}
+
+.certificationImgSec > .css {
+  transform: translateX(50%) translateY(10%);
+}
+
+.certificationImgSec > .css:hover {
+  z-index: 1;
+  cursor: pointer;
+  border: 5px solid rgb(100, 255, 218);
+}
+
+.certificationImgSec > .html:hover {
+  z-index: 1;
+  cursor: pointer;
+  border: 5px solid rgb(100, 255, 218);
+}
+
+.certificationImgSec > .certification4 {
+  transform: translateX(100%) translateY(20%);
+}
+
+.certificationImgSec > .certification3 {
+  transform: translateX(50%) translateY(10%);
+}
+
+.certificationImgSec > .certification3:hover {
+  z-index: 1;
+  cursor: pointer;
+  border: 5px solid rgb(100, 255, 218);
+}
+
+.certificationImgSec > .certification2:hover {
+  z-index: 1;
+  cursor: pointer;
+  border: 5px solid rgb(100, 255, 218);
+}
+
+.animate-hr {
+  margin: 4em 0;
+  border: 2px dotted rgb(100, 255, 218);
+  animation: dottedLine 10s linear alternate infinite 0s;
+}
+
+@keyframes dottedLine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }

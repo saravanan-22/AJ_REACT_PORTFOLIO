@@ -110,11 +110,11 @@ function Header() {
                   style={{ color: "rgb(204, 214, 246)" }}
                   spy={true}
                   smooth={true}
-                  offset={-60}
+                  offset={10}
                   duration={100}
                 >
                   {" "}
-                  <FaSquarePhone className="pb-1" /> GET IN TOUCH
+                  <FaSquarePhone className="pb-1" /> CONTACT
                 </Link>
               </Nav>
             </Navbar.Collapse>
