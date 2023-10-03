@@ -30,6 +30,7 @@ import image25 from "../../images/quiz_image6.jpg";
 import image26 from "../../images/quiz_image7.jpg";
 import image27 from "../../images/quiz_image8.jpg";
 import "./carousel.css";
+import { Link } from "react-scroll";
 
 const Carousel = () => {
   const settings = {
@@ -81,11 +82,14 @@ const Carousel = () => {
       <Slider {...settings}>
         {imageUrls.map((image, index) => (
           <div key={index}>
-            <img
-              src={image}
-              alt={`Image ${index}`}
-              className="carousel-image"
-            />
+            <Link to="projects">
+              <img
+                src={image}
+                alt={`Image ${index}`}
+                className="carousel-image"
+                style={{ cursor: "pointer" }}
+              />
+            </Link>
           </div>
         ))}
       </Slider>

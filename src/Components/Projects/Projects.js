@@ -589,7 +589,7 @@ const Projects = () => {
                       textAlign: "justify",
                       padding: "5px",
                       color: "rgb(136, 146, 176)",
-                       fontSize: "0.8em",
+                       fontSize: "1em",
                     }}
                   >
                     This note app allows users to quickly add and manage notes
@@ -636,7 +636,7 @@ const Projects = () => {
                       textAlign: "justify",
                       padding: "5px",
                       color: "rgb(136, 146, 176)",
-                      fontSize: "0.7em",
+                      fontSize: "0.8em",
                     }}
                   >
                     This JavaScript code sets up a simple number guessing game.
@@ -686,7 +686,7 @@ const Projects = () => {
                       textAlign: "justify",
                       padding: "5px",
                       color: "rgb(136, 146, 176)",
-                      fontSize: "0.7em",
+                      fontSize: "0.8em",
                     }}
                   >
                     This JavaScript code offers two options for generating
@@ -732,7 +732,7 @@ const Projects = () => {
                       textAlign: "justify",
                       padding: "5px",
                       color: "rgb(136, 146, 176)",
-                      fontSize: "0.6em",
+                      fontSize: "0.8em",
                     }}
                   >
                     This JavaScript code creates a simple counter that can be
@@ -783,7 +783,7 @@ const Projects = () => {
                       textAlign: "justify",
                       padding: "5px",
                       color: "rgb(136, 146, 176)",
-                      fontSize: "0.6em",
+                      fontSize: "0.8em",
                     }}
                   >
                     This JavaScript code creates a simple calculator interface.
@@ -835,7 +835,7 @@ const Projects = () => {
                       textAlign: "justify",
                       padding: "5px",
                       color: "rgb(136, 146, 176)",
-                      fontSize: "0.6em",
+                      fontSize: "0.8em",
                     }}
                   >
                     This JavaScript code creates a to-do list application with
@@ -886,7 +886,7 @@ const Projects = () => {
                       textAlign: "justify",
                       padding: "5px",
                       color: "rgb(136, 146, 176)",
-                      fontSize: "0.6em",
+                      fontSize: "0.8em",
                     }}
                   >
                     This JavaScript code takes a user-provided name or word and

@@ -48,7 +48,7 @@
 
 .background-icon {
   position: absolute;
- transform: translateX(28em) translateY(-2.5em);
+ transform: translateX(36em) translateY(-2.5em);
   z-index: 0; 
   width: auto;
 }

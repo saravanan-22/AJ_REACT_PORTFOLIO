@@ -1,16 +1,20 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./getInTouch.css";
-import { Button, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Button} from "react-bootstrap";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+
 import {
   FaGithub,
   FaGooglePlay,
   FaInstagram,
   FaLinkedin,
+  FaSpaceAwesome,
   FaSquareTwitter,
   FaTelegram,
 } from "react-icons/fa6";
+import { BsFillRocketFill } from "react-icons/bs";
 
 function GetInTouch() {
   const form = useRef();
@@ -63,21 +67,56 @@ function GetInTouch() {
       <footer clasName="new_footer_area bg_color">
         <div className="icons">
           <section>
-            <Link to={"https://github.com/saravanan-22"} target="black">
-              <FaGithub className="icon1" />
-            </Link>
-            <Link to={"https://www.linkedin.com/in/saravanan-r-903311265/"} target="blank">
-              <FaLinkedin className="icon1" />
-            </Link>
-            <Link>
-              <FaInstagram className="icon1" />
-            </Link>
-            <Link>
-              <FaSquareTwitter className="icon1" />
-            </Link>
-            <Link>
-              <FaTelegram className="icon1" />
-            </Link>
+            <RouterLink
+              to={"https://github.com/saravanan-22"}
+              target="black"
+              className="me-2"
+              style={{ color: "inherit" }}
+            >
+              <FaGithub
+                className="icon1"
+                style={{ color: "rgb(111, 119, 143)" }}
+              />
+            </RouterLink>
+            <RouterLink
+              to={"https://www.linkedin.com/in/saravanan-r-903311265/"}
+              target="blank"
+              className="me-2"
+              style={{ color: "inherit" }}
+            >
+              <FaLinkedin
+                className="icon1"
+                style={{ color: "rgb(111, 119, 143)" }}
+              />
+            </RouterLink>
+            <RouterLink className="me-2" style={{ color: "inherit" }}>
+              <FaInstagram
+                className="icon1"
+                style={{ color: "rgb(111, 119, 143)" }}
+              />
+            </RouterLink>
+            <RouterLink className="me-2" style={{ color: "inherit" }}>
+              <FaSquareTwitter
+                className="icon1"
+                style={{ color: "rgb(111, 119, 143)" }}
+              />
+            </RouterLink>
+            <RouterLink style={{ color: "inherit" }}>
+              <FaTelegram
+                className="icon1"
+                style={{ color: "rgb(111, 119, 143)" }}
+              />
+            </RouterLink>
+          </section>
+          <span className="m-0 p-0" style={{ color: "rgb(111, 119, 143)" }}>
+            &copy; Saravanan {new Date().getFullYear()} All Rights Reserved.
+          </span>
+          <section className="homeI">
+            <ScrollLink to="home">
+              {" "}
+              <BsFillRocketFill style={{ color: "rgb(111, 119, 143)" }} />
+            </ScrollLink>
+            <h6 className="NavIcon" style={{ color: "white", padding: 0, margin: 0 }}>Home!</h6>
           </section>
         </div>
         <div className="new_footer_top">
