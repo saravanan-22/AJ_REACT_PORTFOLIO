@@ -260,10 +260,10 @@ h6 {
   z-index: 99999;
 } */
 
-.copyRights {
+.copyRights  {
   position: absolute;
-  bottom: 0;
   /* transform: translate(37.5em) translateY(1em); */
+  bottom: -1318%;
   z-index: 99999;
 }
 

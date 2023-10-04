@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./getInTouch.css";
-import { Button} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -18,7 +18,7 @@ import { BsFillRocketFill } from "react-icons/bs";
 
 function GetInTouch() {
   const form = useRef();
-  const [reset , setReset] = useState()
+  const [reset, setReset] = useState();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -34,7 +34,7 @@ function GetInTouch() {
         (result) => {
           console.log(result.text);
           alert("message send");
-          setReset("")
+          setReset("");
         },
         (error) => {
           console.log(error.text);
@@ -50,11 +50,11 @@ function GetInTouch() {
           <form ref={form} onSubmit={sendEmail}>
             <h3>GET IN TOUCH!</h3>
             <label>Name :</label>
-            <input type="text" name="from_name" value = {reset} required/>
+            <input type="text" name="from_name" value={reset} required />
             <label>Email :</label>
-            <input type="email" name="from_email" value = {reset} required/>
+            <input type="email" name="from_email" value={reset} required />
             <label>Message :</label>
-            <textarea name="message" value = {reset} required/>
+            <textarea name="message" value={reset} required />
             <Button
               type="submit"
               value="Send"
@@ -115,8 +115,19 @@ function GetInTouch() {
               {" "}
               <BsFillRocketFill style={{ color: "rgb(111, 119, 143)" }} />
             </ScrollLink>
-            <h6 className="NavIcon" style={{ color: "white", padding: 0, margin: 0 }}>Home!</h6>
+            <h6
+              className="NavIcon"
+              style={{ color: "white", padding: 0, margin: 0 }}
+            >
+              Home!
+            </h6>
           </section>
+          <span
+        className="copyRights m-0 p-0"
+        style={{ color: "rgb(111, 119, 143)" }}
+      >
+        &copy; Saravanan {new Date().getFullYear()} All Rights Reserved.
+      </span>
         </div>
         <div className="new_footer_top">
           <div className="footer_bg">
@@ -124,11 +135,7 @@ function GetInTouch() {
             <div className="footer_bg_two"></div>
           </div>
         </div>
-        
       </footer>
-      <span className="copyRights m-0 p-0" style={{ color: "rgb(111, 119, 143)" }}>
-            &copy; Saravanan {new Date().getFullYear()} All Rights Reserved.
-          </span>
     </div>
   );
 }
