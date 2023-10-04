@@ -39,7 +39,7 @@ footer {
 }
 
 .new_footer_area {
-  background: #fbfbfd;
+  background: #000000;
 }
 
 .new_footer_top {
@@ -249,17 +249,17 @@ h6 {
   text-decoration: none;
   position: absolute;
   transform: translate(20em) translateY(0.5em);
-  font-size: 2em;
+  font-size: 1.5em;
   z-index: 99999;
 }
 
-.icons > section {
+/* .icons > section {
   text-decoration: none;
   position: absolute;
   transform: translate(20em) translateY(0.5em);
   font-size: 2em;
   z-index: 99999;
-}
+} */
 
 .icons > span {
   position: absolute;
