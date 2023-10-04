@@ -1,110 +1,559 @@
-.aboutMe-section {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 100%;
-  justify-content: space-between;
-  margin-top: 3em;
+@media screen and (min-width : 1240px) {
+  .aboutMe-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 3em;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .text > h3 {
+    color: rgb(203, 213, 245);
+  }
+  
+  .text > p {
+    text-align: justify;
+    font-size: 1.2em;
+    color: rgb(136, 146, 176);
+    margin-top: 1em;
+  }
+  
+  /* .text > Button {
+    color: rgb(0, 0, 0);
+    animation: multiColor 5s linear forwards infinite 0s;
+  }
+  
+  @keyframes multiColor {
+    0% {
+      background: orange;
+    }
+  
+    25% {
+      background-color: rgb(25, 0, 255);
+    }
+    50% {
+      background: rgb(255, 255, 255);
+    }
+  
+    75% {
+      background: rgb(72, 255, 0);
+    }
+    100% {
+      background: gold;
+    }
+  } */
+  
+  .text > Button:hover {
+    animation-play-state: paused;
+  }
+  
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .image > img {
+    width: 55%;
+    margin-left: 6em;
+    border: 2px solid rgb(203, 213, 245);
+    margin-top: 85px;
+    animation: colorChanger 8s linear forwards infinite 0s;
+  }
+  
+  .photo:hover {
+    animation-play-state: paused;
+    transform: scale(1.5) rotate(25deg);
+    border: 5px solid rgb(203, 213, 245);
+    border-radius: 5px;
+  }
+  
+  @keyframes colorChanger {
+    0% {
+      background-color: rgba(173, 216, 230, 0.5);
+    }
+  
+    10% {
+      background-color: rgba(255, 192, 203, 0.5);
+    }
+    20% {
+      background-color: rgba(152, 251, 152, 0.5);
+    }
+    30% {
+      background-color: rgba(230, 230, 250, 0.5);
+    }
+    40% {
+      background-color: rgba(218, 165, 32, 0.5);
+    }
+    50% {
+      background-color: rgba(0, 128, 128, 0.7);
+    }
+    60% {
+      background-color: rgba(255, 127, 80, 0.6);
+    }
+    70% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    80% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    90% {
+      background-color: rgba(0, 191, 255, 0.8);
+    }
+    100% {
+      background-color: rgba(107, 142, 35, 0.7);
+    }
+  }
 }
 
-.text {
-  flex: 1;
-  padding: 20px;
+@media screen and (min-width : 992px) and (max-width : 1239.99px) {
+  .aboutMe-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 3em;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .text > h3 {
+    color: rgb(203, 213, 245);
+  }
+  
+  .text > p {
+    text-align: justify;
+    font-size: 1.1em;
+    color: rgb(136, 146, 176);
+    margin-top: 1em;
+  }
+  
+  /* .text > Button {
+    color: rgb(0, 0, 0);
+    animation: multiColor 5s linear forwards infinite 0s;
+  }
+  
+  @keyframes multiColor {
+    0% {
+      background: orange;
+    }
+  
+    25% {
+      background-color: rgb(25, 0, 255);
+    }
+    50% {
+      background: rgb(255, 255, 255);
+    }
+  
+    75% {
+      background: rgb(72, 255, 0);
+    }
+    100% {
+      background: gold;
+    }
+  } */
+  
+  .text > Button:hover {
+    animation-play-state: paused;
+  }
+  
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .image > img {
+    width: 55%;
+    margin-left: 6em;
+    border: 2px solid rgb(203, 213, 245);
+    margin-top: 85px;
+    animation: colorChanger 8s linear forwards infinite 0s;
+  }
+  
+  .photo:hover {
+    animation-play-state: paused;
+    transform: scale(1.5) rotate(25deg);
+    border: 5px solid rgb(203, 213, 245);
+    border-radius: 5px;
+  }
+  
+  @keyframes colorChanger {
+    0% {
+      background-color: rgba(173, 216, 230, 0.5);
+    }
+  
+    10% {
+      background-color: rgba(255, 192, 203, 0.5);
+    }
+    20% {
+      background-color: rgba(152, 251, 152, 0.5);
+    }
+    30% {
+      background-color: rgba(230, 230, 250, 0.5);
+    }
+    40% {
+      background-color: rgba(218, 165, 32, 0.5);
+    }
+    50% {
+      background-color: rgba(0, 128, 128, 0.7);
+    }
+    60% {
+      background-color: rgba(255, 127, 80, 0.6);
+    }
+    70% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    80% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    90% {
+      background-color: rgba(0, 191, 255, 0.8);
+    }
+    100% {
+      background-color: rgba(107, 142, 35, 0.7);
+    }
+  }
 }
 
-.text > h3 {
-  color: rgb(203, 213, 245);
+@media screen and (min-width : 768px) and (max-width : 991.99px) {
+   .aboutMe-section {
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+  
+  .text {
+    flex: 1;
+    /* padding: 10px; */
+  }
+  
+  .text > h3 {
+    color: rgb(203, 213, 245);
+  }
+  
+  .text > p {
+    text-align: justify;
+    font-size: 1.1em;
+    color: rgb(136, 146, 176);
+    margin-top: 1em;
+  }
+  
+  /* .text > Button {
+    color: rgb(0, 0, 0);
+    animation: multiColor 5s linear forwards infinite 0s;
+  }
+  
+  @keyframes multiColor {
+    0% {
+      background: orange;
+    }
+  
+    25% {
+      background-color: rgb(25, 0, 255);
+    }
+    50% {
+      background: rgb(255, 255, 255);
+    }
+  
+    75% {
+      background: rgb(72, 255, 0);
+    }
+    100% {
+      background: gold;
+    }
+  } */
+  
+  .text > Button:hover {
+    animation-play-state: paused;
+  }
+  
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .image > img {
+    width: 80%;
+    margin-left: 13.5em;
+    border: 2px solid rgb(203, 213, 245);
+    animation: colorChanger 8s linear forwards infinite 0s;
+  }
+  
+  .photo:hover {
+    animation-play-state: paused;
+    transform: scale(1.5) rotate(25deg);
+    border: 5px solid rgb(203, 213, 245);
+    border-radius: 5px;
+  }
+  
+  @keyframes colorChanger {
+    0% {
+      background-color: rgba(173, 216, 230, 0.5);
+    }
+  
+    10% {
+      background-color: rgba(255, 192, 203, 0.5);
+    }
+    20% {
+      background-color: rgba(152, 251, 152, 0.5);
+    }
+    30% {
+      background-color: rgba(230, 230, 250, 0.5);
+    }
+    40% {
+      background-color: rgba(218, 165, 32, 0.5);
+    }
+    50% {
+      background-color: rgba(0, 128, 128, 0.7);
+    }
+    60% {
+      background-color: rgba(255, 127, 80, 0.6);
+    }
+    70% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    80% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    90% {
+      background-color: rgba(0, 191, 255, 0.8);
+    }
+    100% {
+      background-color: rgba(107, 142, 35, 0.7);
+    }
+  }
 }
 
-.text > p {
-  text-align: justify;
-  font-size: 1.2em;
-  color: rgb(136, 146, 176);
-  margin-top: 1em;
+@media screen and (min-width: 575px) and (max-width : 767.99px) {
+  .aboutMe-section {
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+  
+  .text {
+    flex: 1;
+    /* padding: 10px; */
+  }
+  
+  .text > h3 {
+    color: rgb(203, 213, 245);
+  }
+  
+  .text > p {
+    text-align: justify;
+    font-size: 1.1em;
+    color: rgb(136, 146, 176);
+  }
+  
+  /* .text > Button {
+    color: rgb(0, 0, 0);
+    animation: multiColor 5s linear forwards infinite 0s;
+  }
+  
+  @keyframes multiColor {
+    0% {
+      background: orange;
+    }
+  
+    25% {
+      background-color: rgb(25, 0, 255);
+    }
+    50% {
+      background: rgb(255, 255, 255);
+    }
+  
+    75% {
+      background: rgb(72, 255, 0);
+    }
+    100% {
+      background: gold;
+    }
+  } */
+  
+  .text > Button:hover {
+    animation-play-state: paused;
+  }
+  
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .image > img {
+    width: 80%;
+    margin-left: 10em;
+    border: 2px solid rgb(203, 213, 245);
+    animation: colorChanger 8s linear forwards infinite 0s;
+  }
+  
+  .photo:hover {
+    animation-play-state: paused;
+    transform: scale(1.5) rotate(25deg);
+    border: 5px solid rgb(203, 213, 245);
+    border-radius: 5px;
+  }
+  
+  @keyframes colorChanger {
+    0% {
+      background-color: rgba(173, 216, 230, 0.5);
+    }
+  
+    10% {
+      background-color: rgba(255, 192, 203, 0.5);
+    }
+    20% {
+      background-color: rgba(152, 251, 152, 0.5);
+    }
+    30% {
+      background-color: rgba(230, 230, 250, 0.5);
+    }
+    40% {
+      background-color: rgba(218, 165, 32, 0.5);
+    }
+    50% {
+      background-color: rgba(0, 128, 128, 0.7);
+    }
+    60% {
+      background-color: rgba(255, 127, 80, 0.6);
+    }
+    70% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    80% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    90% {
+      background-color: rgba(0, 191, 255, 0.8);
+    }
+    100% {
+      background-color: rgba(107, 142, 35, 0.7);
+    }
+  }
 }
 
-/* .text > Button {
-  color: rgb(0, 0, 0);
-  animation: multiColor 5s linear forwards infinite 0s;
-}
-
-@keyframes multiColor {
-  0% {
-    background: orange;
+@media screen and (max-width : 575.99px) {
+  .aboutMe-section {
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
   }
-
-  25% {
-    background-color: rgb(25, 0, 255);
+  
+  .text {
+    flex: 1;
+    /* padding: 10px; */
   }
-  50% {
-    background: rgb(255, 255, 255);
+  
+  .text > h3 {
+    color: rgb(203, 213, 245);
   }
-
-  75% {
-    background: rgb(72, 255, 0);
+  
+  .text > p {
+    text-align: justify;
+    padding: 10px;
+    font-size: 0.9em;
+    color: rgb(136, 146, 176);
   }
-  100% {
-    background: gold;
+  
+  /* .text > Button {
+    color: rgb(0, 0, 0);
+    animation: multiColor 5s linear forwards infinite 0s;
   }
-} */
-
-.text > Button:hover {
-  animation-play-state: paused;
-}
-
-.image {
-  width: 50%;
-  height: 50%;
-}
-
-.image > img {
-  width: 55%;
-  margin-left: 6em;
-  border: 2px solid rgb(203, 213, 245);
-  margin-top: 85px;
-  animation: colorChanger 8s linear forwards infinite 0s;
-}
-
-.photo:hover {
-  animation-play-state: paused;
-  transform: scale(1.5) rotate(25deg);
-  border: 5px solid rgb(203, 213, 245);
-  border-radius: 5px;
-}
-
-@keyframes colorChanger {
-  0% {
-    background-color: rgba(173, 216, 230, 0.5);
+  
+  @keyframes multiColor {
+    0% {
+      background: orange;
+    }
+  
+    25% {
+      background-color: rgb(25, 0, 255);
+    }
+    50% {
+      background: rgb(255, 255, 255);
+    }
+  
+    75% {
+      background: rgb(72, 255, 0);
+    }
+    100% {
+      background: gold;
+    }
+  } */
+  
+  .text > Button:hover {
+    animation-play-state: paused;
   }
-
-  10% {
-    background-color: rgba(255, 192, 203, 0.5);
+  
+  .image {
+    width: 50%;
+    height: 50%;
   }
-  20% {
-    background-color: rgba(152, 251, 152, 0.5);
+  
+  .image > img {
+    width: 80%;
+    margin-left: 8em;
+    border: 2px solid rgb(203, 213, 245);
+    animation: colorChanger 8s linear forwards infinite 0s;
   }
-  30% {
-    background-color: rgba(230, 230, 250, 0.5);
+  
+  .photo:hover {
+    animation-play-state: paused;
+    transform: scale(1.5) rotate(25deg);
+    border: 5px solid rgb(203, 213, 245);
+    border-radius: 5px;
   }
-  40% {
-    background-color: rgba(218, 165, 32, 0.5);
-  }
-  50% {
-    background-color: rgba(0, 128, 128, 0.7);
-  }
-  60% {
-    background-color: rgba(255, 127, 80, 0.6);
-  }
-  70% {
-    background-color: rgba(218, 112, 214, 0.4);
-  }
-  80% {
-    background-color: rgba(218, 112, 214, 0.4);
-  }
-  90% {
-    background-color: rgba(0, 191, 255, 0.8);
-  }
-  100% {
-    background-color: rgba(107, 142, 35, 0.7);
+  
+  @keyframes colorChanger {
+    0% {
+      background-color: rgba(173, 216, 230, 0.5);
+    }
+  
+    10% {
+      background-color: rgba(255, 192, 203, 0.5);
+    }
+    20% {
+      background-color: rgba(152, 251, 152, 0.5);
+    }
+    30% {
+      background-color: rgba(230, 230, 250, 0.5);
+    }
+    40% {
+      background-color: rgba(218, 165, 32, 0.5);
+    }
+    50% {
+      background-color: rgba(0, 128, 128, 0.7);
+    }
+    60% {
+      background-color: rgba(255, 127, 80, 0.6);
+    }
+    70% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    80% {
+      background-color: rgba(218, 112, 214, 0.4);
+    }
+    90% {
+      background-color: rgba(0, 191, 255, 0.8);
+    }
+    100% {
+      background-color: rgba(107, 142, 35, 0.7);
+    }
   }
 }

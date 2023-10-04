@@ -35,7 +35,7 @@ function Home() {
             </p>
             <Carousel />
           </div>
-          <section className="vh-100" id="about">
+          <section className="vh-100" id="/AboutMe">
             <AboutMe />
           </section>
           <section className="vh-200" id="qualifications">

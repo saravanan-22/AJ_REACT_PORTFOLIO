@@ -51,7 +51,7 @@ function Header() {
                 </Link>
                 <Link
                   activeClass="active"
-                  to="about"
+                  to="/AboutMe"
                   className="home me-4 mt-1"
                   style={{ color: "rgb(204, 214, 246)" }}
                   spy={true}
