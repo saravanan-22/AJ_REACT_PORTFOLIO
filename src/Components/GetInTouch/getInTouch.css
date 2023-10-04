@@ -33,13 +33,12 @@ RouterLink {
 }
 
 footer {
-  background: rgb(34, 34, 34);
   height: calc(100vh - 350px);
   width: 100%;
 }
 
 .new_footer_area {
-  background: #000000;
+  background: #ffffff;
 }
 
 .new_footer_top {
