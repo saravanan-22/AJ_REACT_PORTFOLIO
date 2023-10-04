@@ -110,9 +110,6 @@ function GetInTouch() {
               />
             </RouterLink>
           </section>
-          {/* <span className="m-0 p-0" style={{ color: "rgb(111, 119, 143)" }}>
-            &copy; Saravanan {new Date().getFullYear()} All Rights Reserved.
-          </span> */}
           <section className="homeI">
             <ScrollLink to="home">
               {" "}
@@ -127,7 +124,11 @@ function GetInTouch() {
             <div className="footer_bg_two"></div>
           </div>
         </div>
+        
       </footer>
+      <span className="copyRights m-0 p-0" style={{ color: "rgb(111, 119, 143)" }}>
+            &copy; Saravanan {new Date().getFullYear()} All Rights Reserved.
+          </span>
     </div>
   );
 }
