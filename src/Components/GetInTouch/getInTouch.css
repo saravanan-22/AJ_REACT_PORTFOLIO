@@ -9,7 +9,7 @@
 .contact {
   background: url("../../images/contact.gif");
   width: 50%;
-  height: 400px;
+  height: 345px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -248,7 +248,7 @@ h6 {
 .icons > section {
   text-decoration: none;
   position: absolute;
-  transform: translate(20em) translateY(0.5em);
+  transform: translate(25em) translateY(0.5em);
   font-size: 1.5em;
   z-index: 99999;
 }
@@ -280,7 +280,7 @@ h6 {
 
 .NavIcon {
   opacity: 0;
-  transform: translate(-0.4em) translateY(3.5em);
+  transform: translate(-0.4em) translateY(3em);
 }
 
 .homeI:hover .NavIcon {
