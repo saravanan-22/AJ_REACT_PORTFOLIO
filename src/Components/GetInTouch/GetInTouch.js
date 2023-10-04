@@ -126,7 +126,7 @@ function GetInTouch() {
         className="copyRights m-0 p-0"
         style={{ color: "rgb(111, 119, 143)" }}
       >
-        &copy; Portfolio Of | Saravanan {new Date().getFullYear()} All Rights Reserved.
+        &copy; Portfolio Of | Saravanan - {new Date().getFullYear()} All Rights Reserved.
       </span>
         </div>
         <div className="new_footer_top">

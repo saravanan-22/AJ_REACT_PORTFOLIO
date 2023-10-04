@@ -262,7 +262,7 @@ h6 {
 
 .copyRights  {
   position: absolute;
-  transform: translate(0) translateY(15.2em);
+  transform: translate(0) translateY(15.5em);
   z-index: 99999;
 }
 
