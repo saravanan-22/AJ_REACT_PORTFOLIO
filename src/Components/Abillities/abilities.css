@@ -266,20 +266,20 @@
   .mt {
     width: 100%;
     height: 83%;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
   }
   .skillsImages {
-    width: 60%;
+    width: 100%;
   }
 
-  .skillsImages img {
+  /* .skillsImages img {
     width: 10%;
-  }
+  } */
 
   .gif {
-    width: 40%;
+    width: 100%;
     /* background-color: aqua; */
   }
 
@@ -289,9 +289,9 @@
   }
 
   .skillsImages > img {
-    width: 22%;
+    width: 25%;
     --color: rgb(100, 255, 218);
-    --border: 10px;
+    --border: 8px;
     --offset: 10px;
     --gap: 5px;
 
@@ -398,20 +398,20 @@
   .mt {
     width: 100%;
     height: 83%;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
   }
   .skillsImages {
-    width: 60%;
+    width: 100%;
   }
-
+/* 
   .skillsImages img {
     width: 10%;
-  }
+  } */
 
   .gif {
-    width: 40%;
+    width: 100%;
     /* background-color: aqua; */
   }
 
@@ -421,9 +421,9 @@
   }
 
   .skillsImages > img {
-    width: 22%;
+    width: 25%;
     --color: rgb(100, 255, 218);
-    --border: 10px;
+    --border: 5px;
     --offset: 10px;
     --gap: 5px;
 
@@ -531,20 +531,20 @@
   .mt {
     width: 100%;
     height: 83%;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
   }
   .skillsImages {
-    width: 60%;
+    width: 100%;
   }
 
-  .skillsImages img {
-    width: 10%;
-  }
+  /* .skillsImages > img {
+    width: 100%;
+  } */
 
   .gif {
-    width: 40%;
+    width: 100%;
     /* background-color: aqua; */
   }
 
@@ -554,7 +554,7 @@
   }
 
   .skillsImages > img {
-    width: 22%;
+    width: 30%;
     --color: rgb(100, 255, 218);
     --border: 10px;
     --offset: 10px;
