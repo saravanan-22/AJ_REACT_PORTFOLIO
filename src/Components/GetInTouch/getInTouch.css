@@ -9,7 +9,7 @@
 .contact {
   background: url("../../images/contact.gif");
   width: 50%;
-  height: 345px;
+  height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -248,7 +248,7 @@ h6 {
 .icons > section {
   text-decoration: none;
   position: absolute;
-  transform: translate(25em) translateY(0.5em);
+  transform: translate(24.5em) translateY(0.5em);
   font-size: 1.5em;
   z-index: 99999;
 }
@@ -269,7 +269,7 @@ h6 {
 
 .icons > .homeI {
   position: absolute;
-  transform: translate(22.5em) translateY(2em);
+  transform: translate(27.5em) translateY(2em);
   z-index: 99999;
 }
 
