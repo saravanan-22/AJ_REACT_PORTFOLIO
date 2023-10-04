@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./getInTouch.css";
 import { Button} from "react-bootstrap";
@@ -18,6 +18,7 @@ import { BsFillRocketFill } from "react-icons/bs";
 
 function GetInTouch() {
   const form = useRef();
+  const [reset , setReset] = useState()
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -33,6 +34,7 @@ function GetInTouch() {
         (result) => {
           console.log(result.text);
           alert("message send");
+          setReset("")
         },
         (error) => {
           console.log(error.text);
@@ -48,11 +50,11 @@ function GetInTouch() {
           <form ref={form} onSubmit={sendEmail}>
             <h3>GET IN TOUCH!</h3>
             <label>Name :</label>
-            <input type="text" name="from_name" />
+            <input type="text" name="from_name" value = {reset}/>
             <label>Email :</label>
-            <input type="email" name="from_email" />
+            <input type="email" name="from_email" value = {reset}/>
             <label>Message :</label>
-            <textarea name="message" />
+            <textarea name="message" value = {reset}/>
             <Button
               type="submit"
               value="Send"
