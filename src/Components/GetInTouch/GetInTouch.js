@@ -50,11 +50,11 @@ function GetInTouch() {
           <form ref={form} onSubmit={sendEmail}>
             <h3>GET IN TOUCH!</h3>
             <label>Name :</label>
-            <input type="text" name="from_name" value = {reset}/>
+            <input type="text" name="from_name" value = {reset} required/>
             <label>Email :</label>
-            <input type="email" name="from_email" value = {reset}/>
+            <input type="email" name="from_email" value = {reset} required/>
             <label>Message :</label>
-            <textarea name="message" value = {reset}/>
+            <textarea name="message" value = {reset} required/>
             <Button
               type="submit"
               value="Send"
@@ -110,9 +110,9 @@ function GetInTouch() {
               />
             </RouterLink>
           </section>
-          <span className="m-0 p-0" style={{ color: "rgb(111, 119, 143)" }}>
+          {/* <span className="m-0 p-0" style={{ color: "rgb(111, 119, 143)" }}>
             &copy; Saravanan {new Date().getFullYear()} All Rights Reserved.
-          </span>
+          </span> */}
           <section className="homeI">
             <ScrollLink to="home">
               {" "}
