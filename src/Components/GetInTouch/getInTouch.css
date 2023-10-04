@@ -34,7 +34,7 @@ RouterLink {
 
 footer {
   background: rgb(34, 34, 34);
-  height: calc(100vh - 400px);
+  height: calc(100vh - 350px);
   width: 100%;
 }
 
@@ -269,7 +269,7 @@ h6 {
 
 .icons > .homeI {
   position: absolute;
-  transform: translate(27.5em) translateY(2em);
+  transform: translate(27.2em) translateY(2em);
   z-index: 99999;
 }
 
