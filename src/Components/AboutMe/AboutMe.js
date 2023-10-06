@@ -3,6 +3,7 @@ import "./aboutMe.css";
 import Button from "react-bootstrap/esm/Button";
 import { FaFileArrowDown } from "react-icons/fa6";
 import image from "../../images/photo.png";
+import resume from "../../resume/resume_saravanan.pdf"
 
 function AboutMe() {
   return (
@@ -24,7 +25,11 @@ function AboutMe() {
             am actively seeking job opportunities to further my career growth
             and expand my expertise in the field of web development."
           </p>
-          <Button variant="warning">
+          <Button
+            variant="warning"
+            href={resume}
+            download
+          >
             <FaFileArrowDown /> Resume
           </Button>
         </div>
