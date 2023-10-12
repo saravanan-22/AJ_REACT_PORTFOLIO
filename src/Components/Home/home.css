@@ -363,7 +363,7 @@
     z-index: -1;
     color: rgb(82, 82, 82);
     perspective: 1000px;
-    transform: rotateX(90deg);
+    transform: rotateY(70deg);
     animation: iconRotate 5s linear forwards infinite 0s;
   }
 
@@ -373,10 +373,10 @@
 
   @keyframes iconRotate {
     0% {
-      transform: rotateX(80deg) rotate(0);
+      transform: rotateY(70deg) rotate(0);
     }
     100% {
-      transform: rotateX(80deg) rotate(-360deg);
+      transform: rotateY(70deg) rotate(-360deg);
     }
   }
 }
